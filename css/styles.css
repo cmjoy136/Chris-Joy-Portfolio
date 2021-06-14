@@ -1,0 +1,102 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+  font-family: "Lato";
+  scroll-behavior: smooth;
+}
+
+.content{
+    margin-left: 20%;
+}
+
+section{
+    margin-left: 5%;
+}
+
+.parallax-container {
+    position: relative;
+    background-image: url('../media/VelvetEyes.jpg');
+    min-height: 250px;
+
+    background-attachment: fixed;
+    background-position: 75% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-container2 {
+    position: relative;
+    background-image: url('../media/waterfall.jpg');
+    min-height: 250px;
+
+    background-attachment: fixed;
+    background-position: 75% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sidebar {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  z-index: 90;
+}
+
+.card {
+  background-color: inherit;
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.avatar {
+  border-radius: 50px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+
+}
+
+.avatar img {
+    border-radius: inherit;
+  height: auto;
+  width: 100%;
+}
+
+.about-me {
+    width: 75%;
+  display: block;
+  font-size: 16px;
+}
+
+.name{
+    font-size: 32px;
+}
+.title{
+    font-size: 20px;
+}
+
+.kenzie,
+.kenzie:hover,
+.kenzie:active,
+.kenzie:visited {
+  text-decoration: none;
+  color: #b2ddca;
+}
+
+.projects{
+    display: flex;
+}
