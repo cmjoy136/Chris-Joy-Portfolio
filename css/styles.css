@@ -3,42 +3,44 @@ html {
   margin: 0;
   height: 100%;
   font-family: "Lato";
+  font-size: 20px;
   scroll-behavior: smooth;
+  background-color: gainsboro;
 }
 
-.content{
-    margin-left: 20%;
+.content {
+  margin-left: 15%;
 }
 
-section{
-    margin-left: 5%;
+section {
+  margin-left: 5%;
 }
 
 .parallax-container {
-    position: relative;
-    background-image: url('../media/VelvetEyes.jpg');
-    min-height: 250px;
+  position: relative;
+  background-image: url("../media/VelvetEyes.jpg");
+  min-height: 250px;
 
-    background-attachment: fixed;
-    background-position: 75% 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .parallax-container2 {
-    position: relative;
-    background-image: url('../media/waterfall.jpg');
-    min-height: 250px;
+  position: relative;
+  background-image: url("../media/waterfall.jpg");
+  min-height: 250px;
 
-    background-attachment: fixed;
-    background-position: 75% 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-attachment: fixed;
+  background-position: 75% 85%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .sidebar {
   height: 100%;
-  width: 20%;
+  width: 15%;
   position: fixed;
   top: 0;
   left: 0;
@@ -65,28 +67,31 @@ section{
   border-radius: 50px;
   margin-bottom: 10px;
   width: 100%;
-  height: 300px;
+  height: auto;
   display: flex;
-
 }
 
 .avatar img {
-    border-radius: inherit;
+  border-radius: inherit;
   height: auto;
-  width: 100%;
+  max-width: 85%;
 }
 
 .about-me {
-    width: 75%;
+  width: 75%;
   display: block;
-  font-size: 16px;
+  font-size: .9em;
 }
 
-.name{
-    font-size: 32px;
+.about-me {
+  width: 45%;
 }
-.title{
-    font-size: 20px;
+
+.name {
+  font-size: 32px;
+}
+.title {
+  font-size: 20px;
 }
 
 .kenzie,
@@ -94,9 +99,17 @@ section{
 .kenzie:active,
 .kenzie:visited {
   text-decoration: none;
-  color: #b2ddca;
+  color: #02568b;
 }
 
-.projects{
-    display: flex;
+.projects {
+  display: flex;
+  flex-direction: column;
 }
+
+.project-icon{
+  width: 100px;
+  height: 100px;
+}
+
+/* #00356B,#333333,#737373,#FFFFFF,#02568B,#FFFFFF,#A6FFDC,#D0021B */
