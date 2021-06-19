@@ -12,9 +12,6 @@ html {
   margin-left: 15%;
 }
 
-section {
-  margin-left: 5%;
-}
 
 .parallax-container {
   position: relative;
@@ -37,6 +34,9 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+/* SIDEBAR */
 
 .sidebar {
   height: 100%;
@@ -65,10 +65,9 @@ section {
 }
 .avatar {
   border-radius: 50px;
-  margin-bottom: 10px;
+  margin-bottom: 1em;
   width: 100%;
   height: auto;
-  display: flex;
 }
 
 .avatar img {
@@ -77,14 +76,31 @@ section {
   max-width: 85%;
 }
 
-.about-me {
-  width: 75%;
+.lists{
+  list-style-type: none;
+}
+
+.link-list > li {
+  width: 1em;
+  height: auto;
+  margin: 2px;
+  display: inline-block;
+}
+
+
+
+/* CONTENT */
+section{
+  margin-left: 2em;
+  padding: 10px;
   display: block;
   font-size: .9em;
 }
 
 .about-me {
-  width: 45%;
+  width: 50%;
+  display: block;
+  font-size: .9em;
 }
 
 .name {
@@ -111,5 +127,16 @@ section {
   width: 100px;
   height: 100px;
 }
+
+.project {
+  display: flex;
+  margin: 10px;
+}
+
+.project-icon{
+  margin-right: 2em;
+}
+
+
 
 /* #00356B,#333333,#737373,#FFFFFF,#02568B,#FFFFFF,#A6FFDC,#D0021B */
