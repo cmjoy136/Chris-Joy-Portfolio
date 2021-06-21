@@ -5,6 +5,7 @@ html {
   font-family: "Lato";
   font-size: 20px;
   scroll-behavior: smooth;
+  overscroll-behavior: none;
   background-color: gainsboro;
 }
 
@@ -76,11 +77,22 @@ html {
   max-width: 85%;
 }
 
-.lists{
+ul{
   list-style-type: none;
+  padding: 0;
 }
 
+.lists{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
 .link-list > li {
+  display: block;
   width: 1em;
   height: auto;
   margin: 2px;
