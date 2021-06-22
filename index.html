@@ -21,7 +21,7 @@
 <body>
   <div class="main-container">
     <div class="navbar collapsed" >
-      <button><i class="fas fa-bars"></i></button>
+      <button class="nav-button"><i class="fas fa-bars"></i></button>
       <h3>Chris Joy</h3>
     </div>
     <div class="sidebar">
@@ -35,8 +35,8 @@
       <div class="navigation">
         <ul class="page-sections">
           <li class="page-section" id="about-tab"><a href="#about" >About Me</a></li>
-          <li class="page-section" id="project-tab"><a href="#projects" >Projects</a></li>
-          <li class="page-section" id="experience-tab"><a href="#experience" >Experience</a></li>
+          <li class="page-section" id="proj-tab"><a href="#projects" >Projects</a></li>
+          <li class="page-section" id="exp-tab"><a href="#experience" >Experience</a></li>
           <li class="page-section" id='contact-tab'><a href="#contact" >Contact</a></li>
         </ul>
       </div>
@@ -59,7 +59,7 @@
       <div class="header-container">
         <div class="intro"> 
           <h2 class="intro-text">Hey, I'm Chris,</h2>
-          <a class="resume-button" href="https://docs.google.com/document/d/1PYV0_viWqYOI-R54siPp6hOEOUlIj7_Xkwgk5n1NJxk/export?format=pdf">Have a Resume!</a>
+          <a class="resume-button" href="https://docs.google.com/document/d/1PYV0_viWqYOI-R54siPp6hOEOUlIj7_Xkwgk5n1NJxk/export?format=pdf">View Resume</a>
         </div>
         <img class="header-img" src="media/canalWaterfall.jpg" alt=""/>
         
@@ -69,7 +69,7 @@
         <p>
           Hello! My name is <strong>Chris Joy</strong> and I am a Software
           Engineer with a passion for learning and visual design and a desire
-          to work in Front-end software development roles. As a graduate of
+          to work in Front-end software development. As a graduate of
           <a class="kenzie" href="https://www.kenzie.academy/" target="_blank" rel="noreferrer">
             Kenzie Academy </a>, I am a certified Full Stack Software Engineer. I'm always looking
           to improve myself and my skills, both professionally and personally.
@@ -87,9 +87,9 @@
         </div>
         <div class="projects-container">
           <div class="project">
-            <div class="project-icon">
+            <div class="project-icon-link">
               <a href="https://look-and-play-spotify.herokuapp.com/" target="_blank"
-              rel="noopener noreferrer"><img class="project-icon" src="./media/Spotify_Icon_RGB_Green.png" alt="spotify icon" />
+              rel="noopener noreferrer"><img class="project-icon spotify" src="./media/Spotify_Icon_RGB_Green.png" alt="spotify icon" />
               </a>
             </div>
             <div class="project-text">
@@ -106,7 +106,7 @@
             </div>
           </div>
           <div class="project">
-            <div class="project-icon">
+            <div class="project-icon-link">
               <a href="https://cmjoy136.github.io/connect-4/" target="_blank" rel="noopener noreferrer">
               <img class="project-icon connect4" alt="connect 4 icon" src="/media/jokerRed.png"/>
               </a>
@@ -176,7 +176,7 @@
           </div>
           <div class="contacts linked-in">
             <i class="fab fa-linkedin fa-5x"></i>
-            <span><a href="https://www.linkedin.com/in/christopher-joy-949402129/" target="_blank" rel="noopener noreferrer">My LinkedIn</a>
+            <span><a href="https://www.linkedin.com/in/christopher-joy-949402129/" class="linked-in-text" target="_blank" rel="noopener noreferrer">My LinkedIn</a>
             </span>
           </div>
         </div>
@@ -184,7 +184,6 @@
       </section>
     </div>
   </div>
-  
   <script src="/js/main.js"></script>
 </body>
 </html>
