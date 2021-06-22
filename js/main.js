@@ -3,7 +3,6 @@ $(function () {
   $(".page-sections li a").on("click", function (e) {
     e.preventDefault();
     let href = $(this).attr("href");
-    console.log(href);
     $(".current-section").removeClass("current-section");
     $("html, body").animate(
       {
@@ -40,10 +39,7 @@ $(function () {
     let aboutOffset = $("#about").offset().top - 200;
     let projectOffset = $("#projects").offset().top - 150;
     let expOffset = $("#experience").offset().top - 300;
-    let conOffset = $('#contact').offset().top
-
-    console.log(conOffset, expOffset, scroll)
-
+    
     if (scroll >= aboutOffset && scroll < projectOffset) {
       $("#about-tab").addClass("current-section");
     } else {
@@ -55,7 +51,7 @@ $(function () {
     } else {
       $("#proj-tab").removeClass("current-section");
     }
-    if (scroll >= expOffset && scroll < expOffset + 200) {
+    if (scroll >= expOffset && scroll < expOffset + 300) {
       $("#exp-tab").addClass("current-section");
       $("#proj-tab").removeClass("current-section");
     } else {

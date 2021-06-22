@@ -9,7 +9,6 @@ html {
   overscroll-behavior: none;
   background-color: gainsboro;
 }
-
 ul{
   list-style-type: none;
   padding: 0;
@@ -58,7 +57,6 @@ ul{
 }
 
 /* SIDEBAR CONTENT */
-
 .card {
   background-color: inherit;
   margin-top: 1em;
@@ -103,7 +101,6 @@ ul{
 
 }
 
-
 .link-list > li {
   text-decoration: none;
   display: block;
@@ -118,8 +115,7 @@ ul{
   color: white;
 }
 
-/* HEADING */
-
+/* HEADER */
 .header-container{
   position: relative;
   width: 100%;
@@ -168,14 +164,13 @@ section{
   font-size: .9em;
 }
 
-/* current section */
+/* CURRENT SECTION */
 .current-section{
   color: white !important;
   text-decoration: underline !important;
 }
 
 /* ABOUT ME */
-
 .about-me {
   margin-left: 50px;
   width: 50%;
@@ -352,7 +347,6 @@ section{
  
 }
 
-
 @media only screen and (min-width: 768px) and (max-width:1199px){
   .sidebar{
     margin-top: 10px;
@@ -368,7 +362,6 @@ section{
     display: flex;
     flex-direction: column;
   }
-
 }
 
 @media only screen and (min-width: 600px) and (max-width:768px){
@@ -403,10 +396,12 @@ section{
     width: 90px;
     height: 90px;
   }
-
 }
 
 @media only screen and (max-width:600px) {
+  .navbar{
+    width: 100%;
+  }
   .sidebar{
     width: 40%;
     margin-top: 50px;
@@ -419,8 +414,14 @@ section{
     width: 100%;
     margin-left: 0;
   }
+  .section{
+    margin-left: 1em;
+  }
   .parallax-container{
     background-position: 30% 100%;
+  }
+  .about-me{
+    margin-left: 10px;
   }
   .project{
     display: block;
